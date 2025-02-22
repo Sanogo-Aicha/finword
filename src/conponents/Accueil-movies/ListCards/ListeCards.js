@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import Navbar from "../../Navbar/Navbar"; //L'importation de la Navbar
 import { FaSearch } from "react-icons/fa"; //L'importation de l'icon de recherche
-import Footer from "../../Foother/Foother"; //L'importation du composant Footer
 import MovieCards from "../MoviesCards/MovieCards";
 import CardsData from "../../Cards-data/data";
 import "./ListCards.css"
@@ -23,11 +22,6 @@ const ListCard = () => {
   const handleChange = (e) => {
     let value = e.target.value;
     setSheatem(value);
-  };
-  // mettre une card en favoutrites
-  const AddFavoritesmovies = (movies) => {
-    const newFavorite = [...favorite, movies];
-    setFavorite(newFavorite);
   };
   return (
     <div>

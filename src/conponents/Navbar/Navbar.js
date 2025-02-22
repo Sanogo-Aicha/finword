@@ -1,7 +1,5 @@
 import React from "react";
 import "./Navbar.css";
-import { Link } from "react-router-dom";
-import ToutVoir from "../../Page/Tout-voir/Voir";
 export default function Navbar() {
   return (
     <div>

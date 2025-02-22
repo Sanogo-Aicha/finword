@@ -1,6 +1,5 @@
-import React, { Component } from "react";
+import React from "react";
 import "./MoviesComponent.css";
-import { Link } from "react-router-dom";
 const MoviesCoponent = ({ movie }) => {
   const linkTable = movie.PostUrl;
   return (
@@ -30,9 +29,6 @@ const MoviesCoponent = ({ movie }) => {
           })}
         </div>
       </div>
-      <Link to="/">
-        <button className="button-listcards">Retour</button>
-      </Link>
     </div>
   );
 };

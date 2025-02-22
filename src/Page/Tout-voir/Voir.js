@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "./Voir.css";
 import Navbar from "../../conponents/Navbar/Navbar";
-import Footer from "../../conponents/Foother/Foother";
 const ToutVoir = () => {
   const [userName, setUserName] = useState("");
   const [userAge, setUserAge] = useState("");

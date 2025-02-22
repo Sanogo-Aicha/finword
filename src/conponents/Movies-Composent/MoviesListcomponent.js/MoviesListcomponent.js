@@ -1,8 +1,7 @@
-import React, { Component } from 'react';
-import { Link, useParams } from 'react-router-dom';
+import React from 'react';
+import {  useParams } from 'react-router-dom';
 import DataMovie from '../../Movies-Data/DataMovie';
 import './MoviesListComponent.css';
-import CardsData from '../../Cards-data/data';
 import MoviesCoponent from '../MoviesComponents/MoviesComponent';
 import Navbar from '../../Navbar/Navbar';
 export default function MoviesListComponent () {

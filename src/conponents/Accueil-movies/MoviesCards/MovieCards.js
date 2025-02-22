@@ -1,4 +1,3 @@
-import react from "react";
 import './MovieCards.css';
 const MovieCards=({cards})=>{
     const {image}=cards
