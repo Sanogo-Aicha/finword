@@ -9,7 +9,6 @@ const ListCard = () => {
   const location = useLocation();
   const { userName, userAge } = location.state || {}; // Récupère les valeurs passées
   const [filteredMoviecards, setFilteredMoviecards] = useState([]);
-  const [favorite, setFavorite] = useState([]);
   useEffect(() => {
     const Movies = CardsData.filter(
       (
@@ -26,8 +25,6 @@ const ListCard = () => {
   return (
     <div>
       <Navbar />
-      <marquee behavior="" direction="up">UNE MISE A JOUR SERA FAITE SUR CETTE APPLICATION TRES BIENTOT <br />
-      MERCI A VOUS !</marquee>
       <div className="message-Listcards">
         <h1>Bienvenue dans notre ListCard</h1>
         <p>
