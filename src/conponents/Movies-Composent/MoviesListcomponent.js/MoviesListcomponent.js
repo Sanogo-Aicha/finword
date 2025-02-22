@@ -7,7 +7,7 @@ import Navbar from '../../Navbar/Navbar';
 export default function MoviesListComponent () {
   let id=useParams().id
   let movies=DataMovie.find((elt)=>{
-    return elt.id==id;
+    return elt.id===id;
   })
 
   
